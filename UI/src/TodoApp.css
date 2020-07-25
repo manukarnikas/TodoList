@@ -1,0 +1,27 @@
+.header{
+  background-color: tomato;
+  color:white;
+  text-align: center;
+  font-size:2em;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.icon{
+  color:#20B2AA;
+  cursor:pointer;
+}
+
+.icon:hover{
+  color:#2E8B57;
+  cursor:pointer;
+}
+
+.card-title{
+  margin-bottom: 2em;
+}
+
