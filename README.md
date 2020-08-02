@@ -3,8 +3,8 @@
 Todo List
 
 <h5>Stack Used</h5>
-React
-Node.js,Express.js
+React,
+Node.js,Express.js,
 Mongoose,Mongo 
 
 <h5>Description</h5>
@@ -16,5 +16,6 @@ A simple and elegant todo list to keep track of your everyday tasks
 <br/>
 <kbd><img  width="455" height="837" src="https://github.com/manukarnikas/TodoList/blob/master/images/image4.png?raw=true" /></kbd>
 
-
+<h5>Installation and Dependencies</h5>
+Requires React, Node,Npm and MongoDb.
 
