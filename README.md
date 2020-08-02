@@ -3,9 +3,9 @@
 Todo List
 
 <h5>Stack Used</h5>
-UI  - React
-API - Node.js,Express.js
-DB  - Mongo 
+React
+Node.js,Express.js
+Mongoose,Mongo 
 
 <h5>Description</h5>
 A simple and elegant todo list to keep track of your everyday tasks
