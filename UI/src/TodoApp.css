@@ -9,7 +9,8 @@ input[type=text] {
   background: transparent;
   border: none;
   border-bottom: 1px solid #000000;
-}
+  outline:none;
+ }
 
 .icon{
   color:#20B2AA;
@@ -25,3 +26,6 @@ input[type=text] {
   margin-bottom: 2em;
 }
 
+.card-style{
+  height:100vh;
+}

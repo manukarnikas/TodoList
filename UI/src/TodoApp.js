@@ -16,7 +16,6 @@ class TodoApp extends Component{
 
     /**on init */
     async componentDidMount(){
-        console.log('cmd here');
         let url = environment.url+'todoApp';
         let response = await fetch(url, {
             method: "GET",
@@ -27,8 +26,6 @@ class TodoApp extends Component{
             }
           });
         response.json().then(data=>{
-            /**sort here */
-            console.log('cmd after res');
            this.setState({
                list: data.result
            });
@@ -58,7 +55,6 @@ class TodoApp extends Component{
                  let newState = prevState;
                  newState.list.push(data.result);
                  document.getElementById('newtask').value="";
-                 /**sort here*/
                  return newState;
              })
           }
@@ -151,7 +147,7 @@ class TodoApp extends Component{
         /**Render List of Tasks */
         return (
             <div>
-                <div className="card"> 
+                <div className="card card-style"> 
                     <div className="card-header header">
                         <i style={{float:'left'}} className="fas fa-tasks"></i>
                         to-do list
